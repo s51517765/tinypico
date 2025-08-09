@@ -182,6 +182,11 @@ Teraterm などで読み取ることができます。Arduino IDE でも読み�
 
 [sample フォルダ](/sample/)を参照ください。
 
+## RAM容量不足となる場合
+ピン互換のATtiny402を使うとRAM容量が2倍になります。<br>
+この場合、書きみ手順でChipをATtiny402を選択します。<br>
+<img src="img/010.jpg" width="700">
+
 ## ブートローダーの書き込み (How to write bootloader)
 
 マイコンがおかしくなった時やブートローダーが書き込まれていないマイコンを購入した場合は書き込みが必要になります。Arduino IDE で書き込むことが出来ます。
