@@ -182,8 +182,8 @@ Teraterm などで読み取ることができます。Arduino IDE でも読み�
 
 [sample フォルダ](/sample/)を参照ください。
 
-## RAM容量不足となる場合
-ピン互換のATtiny402を使うとRAM容量が2倍になります。<br>
+## フラッシュメモリ不足となる場合（When flash memory is insufficient）
+ピン互換のATtiny402を使うとフラッシュメモリ容量が2倍になります。<br>
 この場合、書きみ手順でChipをATtiny402を選択します。<br>
 <img src="img/010.jpg" width="700">
 
@@ -192,6 +192,14 @@ Teraterm などで読み取ることができます。Arduino IDE でも読み�
 マイコンがおかしくなった時やブートローダーが書き込まれていないマイコンを購入した場合は書き込みが必要になります。Arduino IDE で書き込むことが出来ます。
 <br>通常は必要ありません。
 <img src="img/008.jpg" width="700">
+
+## 動作確認済みサンプルコードリスト（List of sample codes that works）
+Arduino IDEのライブラリとして導入可能なサンプルコードのうち動作確認できたものを追加していきます。
+|Library|Name|ATtiny402|ATtiny202|
+|------ |------ |------ |------ |
+|Tiny4kOLED|Bitmap|〇|×|
+|Tiny4kOLED|ScrollingExample|〇|×|
+|Adafruit NeoPixel|simple|〇|×|
 
 ## ライセンス (License)
 
